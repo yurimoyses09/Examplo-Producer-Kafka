@@ -1,0 +1,10 @@
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\bin\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.deps.json
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\bin\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.dll
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\bin\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.pdb
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\obj\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\obj\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.AssemblyInfoInputs.cache
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\obj\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.AssemblyInfo.cs
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\obj\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.csproj.CoreCompileInputs.cache
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\obj\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.dll
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\obj\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.pdb
+C:\Users\ADM\Desktop\DEV\Kafka\PRODUCER\KAFKA.PRODUCER\KAFKA.PRODUCER.Dominios\obj\Debug\netcoreapp3.1\KAFKA.PRODUCER.Dominios.csproj.AssemblyReference.cache

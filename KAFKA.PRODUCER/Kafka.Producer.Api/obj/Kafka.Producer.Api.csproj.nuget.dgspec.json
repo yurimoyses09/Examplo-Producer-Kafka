@@ -1,0 +1,230 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\Kafka.Producer.Api\\Kafka.Producer.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\Kafka.Producer.Api\\Kafka.Producer.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\Kafka.Producer.Api\\Kafka.Producer.Api.csproj",
+        "projectName": "Kafka.Producer.Api",
+        "projectPath": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\Kafka.Producer.Api\\Kafka.Producer.Api.csproj",
+        "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\Kafka.Producer.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Aplicacao\\KAFKA.PRODUCER.Aplicacao.csproj": {
+                "projectPath": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Aplicacao\\KAFKA.PRODUCER.Aplicacao.csproj"
+              },
+              "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Dominios\\KAFKA.PRODUCER.Dominios.csproj": {
+                "projectPath": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Dominios\\KAFKA.PRODUCER.Dominios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Aplicacao\\KAFKA.PRODUCER.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Aplicacao\\KAFKA.PRODUCER.Aplicacao.csproj",
+        "projectName": "KAFKA.PRODUCER.Aplicacao",
+        "projectPath": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Aplicacao\\KAFKA.PRODUCER.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Dominios\\KAFKA.PRODUCER.Dominios.csproj": {
+                "projectPath": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Dominios\\KAFKA.PRODUCER.Dominios.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Confluent.SchemaRegistry": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Confluent.SchemaRegistry.Serdes.Json": {
+              "target": "Package",
+              "version": "[1.8.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Dominios\\KAFKA.PRODUCER.Dominios.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Dominios\\KAFKA.PRODUCER.Dominios.csproj",
+        "projectName": "KAFKA.PRODUCER.Dominios",
+        "projectPath": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Dominios\\KAFKA.PRODUCER.Dominios.csproj",
+        "packagesPath": "C:\\Users\\ADM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADM\\Desktop\\DEV\\Kafka\\PRODUCER\\KAFKA.PRODUCER\\KAFKA.PRODUCER.Dominios\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
