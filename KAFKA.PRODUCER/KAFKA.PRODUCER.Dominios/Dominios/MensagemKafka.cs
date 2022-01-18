@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using static KAFKA.PRODUCER.Dominios.Enums.Enum;
 
 namespace KAFKA.PRODUCER.Dominios.Dominios
 {
@@ -21,7 +20,7 @@ namespace KAFKA.PRODUCER.Dominios.Dominios
         public string Idade { get; set; }
 
         [JsonProperty(PropertyName = "status_civil")]
-        public statusCivil StatusCivil { get; set; }
+        public int StatusCivil { get; set; }
     }
 
 }

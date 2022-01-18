@@ -4,7 +4,6 @@ using KAFKA.PRODUCER.Dominios.Dominios;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using System;
 using System.Collections.Generic;
 
 namespace KAFKA.PRODUCER.Aplicacao
@@ -42,7 +41,7 @@ namespace KAFKA.PRODUCER.Aplicacao
             
             try
             {
-                if (!mensagemKafka.Equals(null))
+                if (Mensagens.Count > 0)
                 {
                     foreach (var item in Mensagens)
                     {
@@ -53,12 +52,13 @@ namespace KAFKA.PRODUCER.Aplicacao
                         });
 
                         ExecucaoProducer.Wait();
-                        
+
                         if (ExecucaoProducer.Result.Equals(ErrorCode.NoError))
                             return $"Falha ao produzir mensagem {ExecucaoProducer.Result}";
                     }
                     producer.Flush();
-                    return $"Processado com sucesso - topico {nomeTopico} - value = {Mensagens}";
+
+                    return $"Processado com sucesso - topico {nomeTopico}  - Mensagens adicionadas {Mensagens.Count}";
                 }
                 else
                 {
@@ -82,5 +82,6 @@ namespace KAFKA.PRODUCER.Aplicacao
 
             return valoresProducer;
         }
+
     }
 }
