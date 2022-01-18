@@ -6,6 +6,6 @@ namespace KAFKA.PRODUCER.Aplicacao.Interfaces
     public interface IMensageriaKafka
     {
         public string EnviaMensagem(List<MensagemKafka> mensagemKafka);
-        public List<string> ConvertMensagemKafkaString(List<MensagemKafka> mensagens);
+        List<string> ConvertMensagemKafkaString(List<MensagemKafka> mensagens);
     }
 }
