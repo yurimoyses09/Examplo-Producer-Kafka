@@ -29,7 +29,9 @@ namespace Kafka.Producer.Api
                 swagger.SwaggerDoc("v1",
                 new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Producer Kafka"
+                    Title = "Producer Kafka",
+                    Version = "v1",
+                    Description = "Exemplo de api de consumer kafka"
                 });
             });
         }
